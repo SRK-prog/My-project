@@ -26,6 +26,7 @@ def guessing_game_single():
         Toguess = findD        
     else:
         print('Not a valid choice')
+        return True
     Triedword = ""
     result = False
     Timesgussed = 0
